@@ -1,0 +1,33 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box ;
+
+}
+
+#form-contato{
+display: block;
+max-width: 60%;
+width: 60%;  
+margin: 20px;
+padding: 25px;
+background-color: rgb(150, 60,70);   
+
+}
+
+input,
+button{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: rgb(0,0,255);
+width: 20%;
+margin: 15px;
+padding: 15px;
+
+
+}
+button{
+    background-color: lightblue;
+    font-size: 20px;
+    font-weight: bold;
+}
+
