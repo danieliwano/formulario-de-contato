@@ -12,12 +12,23 @@
 <body>
 
     <form id="form-contato" action="https://formsubmit.co/danieliwano@hotmail.com" method="POST">
-        <label for="name">Nome</label>
-        <input type="text" name="name" required>
+        <label for="name">Nome:</label>.
+        <input type="text" name="name" placeholder="Digite o seu nome aqui" required>
 
-        <label for="email">E-mail</label>
-        <input type="email" name="email" required>
+        <label for="email">Email:</label>
+        <input type="email" name="email" placeholder="Digite o seu e-mail aqui." required>
+        
+        <label for="message">Mensagem:</label>
+        <textarea type="text" name="message" cols="30" rows="5" placeholder=" Digite sua mensagem aqui" required></textarea> >
+        <!-- no placeholder evitar de deixar espaço entre o fechamento das tags, exemplo acima: required> </textarea>, aquele simples espaço faz com que 
+        a mensagem da caixa de diálogo suma! -->
+        
+        
         <button type="submit">Enviar</button>
+
+        <!-- outro exemplo para ser usado mas nao foi destrinchado na sala foi a função select:
+        <select></select>
+        o segundo valor estará selecionado inicialmente quando há value e selected -->
    </form>
     
 </body>
